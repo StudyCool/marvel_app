@@ -27,12 +27,12 @@ class App extends Component {
   render() {
     return (
 
-      <div >
+      <div>
         <span> </span>
-        <ul>
+        <ul style={{margin: "0px, auto"}}>
           {this.state.data.map(el => (
-            <li>
-              {el.firstName}: {el.lastName} , level: {el.level}
+            <li style={{listStyle:"none", width: "375px", height: "72px", borderBottom: "#E6EAEE"}}>
+              <img style={{width: "48px", height: "48px", borderRadius : "50%"}} alt={"coach"} src={el.profilePic}/> {el.firstName}: {el.lastName} , level: {el.level}
 
               <Choice/>
 
