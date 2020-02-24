@@ -1,1 +1,14 @@
 @import "../Avatar/avatar.styles.module.css";
+.fullName {
+    font-size: 16px;
+    color:  #0B3157;
+    font-family: 'Montserrat' ;
+}
+
+.level{
+    line-height: 17px;
+    opacity: 0.5;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}

@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import propTypes from 'prop-types';
 
 
+
 class Avatar extends Component {
   render() {
     return <img {...this.props}/>;
